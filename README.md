@@ -13,6 +13,15 @@ This list is incomplete and not organized.
  * A means of delete a degree
  * A means of modifying a degree
 
+ ##Preliminary Process of Creating a Course
+ 1. Enter the name of the class
+ 2. Select a department and a course number (possibly, select a level [1000, 2000, 4000, etc.] and have course number autogenerate)
+ 3. Select if the class is limited to certain majors (might run into an issue if the major does not exists but the class is needed to create the major)
+ 4. Select any preexisting courses that are prerequisites for this course.
+ 5. Select if this course is only available for a certain semester.
+ 6. Enter a brief description of a class
+ 7. [possible] Enter a professor teaching the class
+
  ##Preliminary Process of Creating a Degree
 
  1. Enter a name and short-hand
