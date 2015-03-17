@@ -51,3 +51,20 @@ This list is incomplete and not organized.
 	2.  Master table containing all courses and their respective shorthands.
 	3.  Multiple versions of degrees may be necessary to be stored in database to handle different enrollment years.
 	4.  Rule system needs to be created for each individual course in the master table.
+
+## Necessary Model Structure
+
+* Course Application:
+	* Department
+	* Course
+	* CourseDate
+	* Requisite
+* Degree Application:
+	* Semester
+	* Degree
+	* DegreeRequirement
+
+# Rules of thumb for "doing things"
+
+1. COMMENT YOUR CODE
+2. 
