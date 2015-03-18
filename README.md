@@ -69,4 +69,4 @@ This list is incomplete and not organized.
 # Rules of thumb for "doing things"
 
 1. COMMENT YOUR CODE
-2. 
+2. Place a multiline comment at the top of a new page with the list of contributors as well as a description of the file.
