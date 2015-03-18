@@ -24,7 +24,7 @@ This list is incomplete and not organized.
  7. [optional]Enter a professor teaching the class
  8. [optional]Enter times, days of the week, and location that the class will meet
 
- ##Preliminary Process of Creating a Degree
+ ## Preliminary Process of Creating a Degree
 
  1. Enter a name and short-hand
  2. Select a department
@@ -43,10 +43,12 @@ This list is incomplete and not organized.
 *Electives can differ for each degree.
 
 
- ##Database Oraganization
- *Database needs to be integrated/compatible with the code we produce in Django, as data needs to easily accessible.
+ ## Database Oraganization
 
- *PROPOSAL FOR UNIFIED STRUCTURE
+ * Database needs to be integrated/compatible with the code we produce in Django, as data needs to easily accessible.
+
+ ## PROPOSAL FOR UNIFIED STRUCTURE
+
 	1.  Tables for each degree, where each degree has multiple tables containing rules for said degree.
 	2.  Master table containing all courses and their respective shorthands.
 	3.  Multiple versions of degrees may be necessary to be stored in database to handle different enrollment years.
