@@ -45,10 +45,9 @@ class Requisite(models.Model):
 	)
 
 	req_type = models.CharField(max_length=1, choices=TYPES)
-	course = models.ForeignKey('Course')
-	req_for = models.ForeignKey('Course')
+	req = models.ForeignKey('Course', related_name='req')
+	req_for = models.ForeignKey('Course', related_name='req_for')
 	date_added = models.DateTimeField(auto_now_add=True)
 
 	def __unicode__(self):
-		return course + ' is a ' + req_type + ' for ' + req_for
-	
+		return req + ' is a ' + req_type + ' for ' + req_for
