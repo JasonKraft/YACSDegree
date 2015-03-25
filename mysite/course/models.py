@@ -37,3 +37,18 @@ class CourseDate(models.Model):
 
 	def __unicode__(self):
 		return self.CRN
+
+class Requisite(models.Model):
+	TYPES  = (
+		('P', 'Prerequisite'),
+		('C', 'Corequisite'),
+	)
+
+	req_type = models.CharField(max_length=1, choices=TYPES)
+	course = models.ForeignKey('Course')
+	req_for = models.ForeignKey('Course')
+	date_added = models.DateTimeField(auto_now_add=True)
+
+	def __unicode__(self):
+		return course + ' is a ' + req_type + ' for ' + req_for
+	
