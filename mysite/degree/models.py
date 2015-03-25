@@ -28,6 +28,7 @@ class Semester(models.Model):
 		return u'%s %d' % (self.season, self.year)
 
 
+
 class Degree(models.Model):
 	name 		= models.CharField(max_length=20, unique=True)
 	shorthand 	= models.CharField(max_length=5, unique=True)
