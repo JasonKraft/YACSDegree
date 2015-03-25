@@ -1,7 +1,8 @@
 
-
-"Contributor(s): Zachary Ravichandran"
-"Description: Contains model declarations for Degree "
+'''
+Contributor(s): Zachary Ravichandran
+Description: Contains model declarations for Degree
+'''
 
 
 # === Imports ===
@@ -20,7 +21,7 @@ class Semester(models.Model):
 	)
 
 	season = models.CharField(max_length=2, choices = SEMESTERS)
-	
+
 
 class Degree_Application(models.Model):
 	SEMESTERS = (
