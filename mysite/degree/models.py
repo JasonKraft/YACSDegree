@@ -12,6 +12,15 @@ from django.db import models
 # Every Degree has a name and shorthand
 # Every Degree has a semester and year created
 
+class Semester(models.Model):
+	SEMESTERS = (
+		('SP', 'SPRING')
+		('SM', 'SUMMER')
+		('FL', 'FALL')
+	)
+
+	season = models.CharField(max_length=2, choices = SEMESTERS)
+	
 
 class Degree_Application(models.Model):
 	SEMESTERS = (
