@@ -51,3 +51,21 @@ This list is incomplete and not organized.
 	2.  Master table containing all courses and their respective shorthands.
 	3.  Multiple versions of degrees may be necessary to be stored in database to handle different enrollment years.
 	4.  Rule system needs to be created for each individual course in the master table.
+
+-----------------------------------------------------------
+
+Generic Course Requirements:
+
+* Communication Requirement: All undergraduates must complete at least two Communication-Intensive courses. One course must be in the student's major; the other course must be in the School of HASS.
+* Math & Science Courses
+* Science Elective
+* Core Engineering Courses
+* Professional Develop Sequence
+* Required Courses
+* Major Specific Electives
+* Design Elective
+* Restricted Electives
+* Technical Elective: Any 3 or 4-credit course in science, including MATH courses, or engineering at the 4000 level or higher. No more than one Independent Study course may be used when satisfying the combined Technical and Restricted Elective requirements. Recommended that students use electives to form a concentration.
+* HASS 4000 Level Course
+* HASS Core Credits
+	- Depth Requirement: Two 4-credit courses in the same H or SS subject area. One must be above the 1000 level. None on Pass/No Credit. Course used to satisfy PD II may not be used for depth.
