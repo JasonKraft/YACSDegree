@@ -10,6 +10,7 @@ https://docs.djangoproject.com/en/1.7/ref/settings/
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
+from os.path import join
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
@@ -26,8 +27,16 @@ TEMPLATE_DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
+AUTH_PROFILE_MODULE = 'member.Member'
 # Application definition
+
+LOGIN_URL = '/login'
+
+LOGIN_REDIRECT_URL = '/profile'
+
+TEMPLATE_DIRS = (
+    (BASE_DIR, 'templates')
+)
 
 INSTALLED_APPS = (
     'django.contrib.admin',
@@ -37,6 +46,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'course',
+    'member',
 )
 
 MIDDLEWARE_CLASSES = (
